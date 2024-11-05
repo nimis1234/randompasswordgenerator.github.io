@@ -1,0 +1,100 @@
+/* Input container to align input and button */
+.input-container {
+  display: flex;
+  align-items: center; /* Vertically center the input and button */
+  justify-content: center; /* Center horizontally */
+  margin-top: 10px; /* Space above the input-container */
+}
+
+/* Common styles for input fields */
+.input-field {
+  margin-right: 10px; /* Space between input and button */
+  width: 100%; /* Responsive width */
+  max-width: 250px; /* Maintain a max width */
+}
+
+.divider {
+  width: 100%;
+  background-color: #9b9b07;
+  height: 2px;
+  margin: 25px auto;
+}
+
+/* Styles for the password box */
+.divbox {
+  background-color: #30353a;
+  padding: 20px;
+  border-radius: 5px;
+  position: absolute;
+  top: 30vh; /* Position in the middle */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 90%; /* Responsive width */
+  max-width: 400px; /* Max width for larger screens */
+  align-items: center;
+  margin-top: 150px;
+}
+
+/* Button styles */
+.btn-custom {
+  margin-left: 10px; /* Space between button and input */
+  background-color: #525a62;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .divbox {
+    width: 100%; /* Full width for smaller screens */
+  }
+
+  .input-field {
+    max-width: 200px; /* Smaller max width for mobile */
+  }
+
+  .btn-custom {
+    width: auto; /* Automatic width on smaller screens */
+  }
+}
+.input-container {
+  display: flex;
+  align-items: center; /* Vertically center the input and button */
+  justify-content: center; /* Center horizontally */
+  margin-top: 10px; /* Space above the input-container */
+}
+
+.range-container {
+  display: flex; /* Use flexbox to align range input and value */
+  align-items: center; /* Center vertically */
+  margin-top: 10px; /* Space above the range-container */
+  width: 300px;
+  margin-left: 10px;
+}
+
+.form-range {
+  flex-grow: 1; /* Allow the range input to grow and take available space */
+  margin-right: 10px; /* Space between range input and value */
+}
+
+.range-value {
+  color: white; /* Text color */
+  margin-bottom: 0; /* Remove bottom margin */
+}
+.password-settings {
+  display: flex; /* Use flexbox to align the checkboxes */
+  flex-direction: row; /* Align checkboxes in a row */
+  justify-content: space-around; /* Space checkboxes evenly */
+  margin-top: 20px; /* Space above the settings */
+  color: white; /* Text color */
+  margin-left: 15px;
+}
+
+.password-settings label {
+  margin-right: 10px; /* Space between checkboxes */
+  display: flex; /* Use flex to align checkbox and text */
+  align-items: center; /* Center checkbox and text vertically */
+}
+
+.form-check-input {
+  margin-right: 5px; /* Space between checkbox and label text */
+}
