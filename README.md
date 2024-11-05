@@ -34,7 +34,6 @@ Memoized Password Generation:
 The GeneratePassword function is wrapped in a useCallback hook to avoid unnecessary re-renders. This ensures optimal performance, especially when dealing with state changes.
 Styling:
 
-The app is styled using external CSS, making it visually appealing with color-coded sections, clearly labeled controls, and a user-friendly interface.
 
 # How It Works:
 
@@ -46,26 +45,3 @@ Generated Password: The password appears in a read-only input field. Click the "
 
 Copy Feedback: After clicking "Copy," the button text changes to "Copied!" for a brief moment, providing feedback to the user.
 
-# Getting Started
-
-To get started with this project, follow these steps:
-
-Prerequisites
-Node.js (version 14 or higher)
-npm (version 6 or higher)
-React (version 17 or higher)
-Installation
-Clone the repository: git clone https://github.com/your-username/your-repo-name.git
-Install dependencies: npm install
-Start the application: npm start
-Project Structure
-public/: Public assets, such as index.html and favicon.ico
-src/: Source code for the application
-components/: React components
-containers/: React containers
-actions/: Action creators for state management
-reducers/: Reducers for state management
-index.js: Entry point for the application
-Components
-PasswordRequirementsForm.js: The main form component that renders the checkboxes
-Checkbox.js: A reusable checkbox component
