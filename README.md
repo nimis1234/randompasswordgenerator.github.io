@@ -45,3 +45,5 @@ Generated Password: The password appears in a read-only input field. Click the "
 
 Copy Feedback: After clicking "Copy," the button text changes to "Copied!" for a brief moment, providing feedback to the user.
 
+#Demo
+-follow the link https://nimis1234.github.io/randompasswordgenerator.github.io/
